@@ -47,6 +47,7 @@ header{
     width: 100%;
     height: 808px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Heading Part Finished */
@@ -57,6 +58,7 @@ header{
     gap: 87px;
     margin-left: 206px;
     margin-top: 130px;
+    justify-content: center;
 }
 .upper-details{
     margin-right:322px ;
@@ -70,12 +72,13 @@ header{
  .upper-content{
     color:  #444343;
     margin-bottom: 16px;
+    font-weight: 400;
 
     
  }
  .upper-line{
     color: #444343;
-    font-weight: 430;
+    font-weight: 400;
  }
  /* Upper Body Finished */
 
@@ -113,13 +116,17 @@ header{
 
 
 /* Down Body Starts */
+.gradiant{
+    display: flex;
+    justify-content: center;
+}
 .gradiant-content{
     background-image: url(../images/watch.png);
     background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
-    margin-left: 230px;
     margin-top: 130px;
+    
 
 }
 .items{
@@ -143,6 +150,7 @@ header{
    background-color: black;
    height: 577px;
    margin-top: 130px;
+   justify-content: center;
 
 }
  .footer-head{
@@ -205,4 +213,5 @@ header{
      border: 1px solid white;
      border-radius: 5px;
 }
+
 
